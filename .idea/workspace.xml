@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29452883-d8ef-47e8-b386-2796067d530e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LibTrack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extension.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlite_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view_db.py" afterDir="false" />
+    <list default="true" id="29452883-d8ef-47e8-b386-2796067d530e" name="Changes" comment="添加了dbcreate部分，flask部分，sqlite部分，viewdb部分和sqlite3 import部分(pycharm community版本 没有sqlite reader)&#10;数据库部分已经创建完成，接下来写接口的部分.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/extension.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +18,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;omt2025&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/omt2025/Flask-Vue-RESTful-API-LibTrack&quot;,
+    &quot;accountId&quot;: &quot;e8a2a2cf-76a6-4f48-989c-ec977af0ad05&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -44,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -66,6 +73,19 @@
       <option name="presentableId" value="Default" />
       <updated>1745344948350</updated>
     </task>
+    <task id="LOCAL-00001" summary="添加了dbcreate部分，flask部分，sqlite部分，viewdb部分和sqlite3 import部分(pycharm community版本 没有sqlite reader)&#10;数据库部分已经创建完成，接下来写接口的部分.">
+      <option name="closed" value="true" />
+      <created>1745348101752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745348101752</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加了dbcreate部分，flask部分，sqlite部分，viewdb部分和sqlite3 import部分(pycharm community版本 没有sqlite reader)&#10;数据库部分已经创建完成，接下来写接口的部分." />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了dbcreate部分，flask部分，sqlite部分，viewdb部分和sqlite3 import部分(pycharm community版本 没有sqlite reader)&#10;数据库部分已经创建完成，接下来写接口的部分." />
   </component>
 </project>
