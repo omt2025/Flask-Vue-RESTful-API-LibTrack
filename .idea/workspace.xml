@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29452883-d8ef-47e8-b386-2796067d530e" name="Changes" comment="添加了dbcreate部分，flask部分，sqlite部分，viewdb部分和sqlite3 import部分(pycharm community版本 没有sqlite reader)&#10;数据库部分已经创建完成，接下来写接口的部分.">
+    <list default="true" id="29452883-d8ef-47e8-b386-2796067d530e" name="Changes" comment="更新了基于RESTful的后端接口实现&#10;feat: 完善 Book 接口，支持单本查询、添加与删除操作&#10;&#10;- 修改 BookApi 类视图，支持通过 /books/&lt;book_id&gt; 查询单本书籍详情&#10;- 新增 POST 方法，实现添加书籍功能，数据来源为 JSON 请求体&#10;- 新增 DELETE 方法，实现通过 book_id 删除指定书籍&#10;- 更新路由配置，支持多个 HTTP 方法（GET, POST, DELETE）绑定&#10;- 增强后端接口的 RESTful 设计，支持更多交互功能">
+      <change beforePath="$PROJECT_DIR$/.idea/LibTrack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LibTrack.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/extension.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/MSI/Desktop/git/LibTrack",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
@@ -81,11 +81,20 @@
       <option name="project" value="LOCAL" />
       <updated>1745348101752</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新了基于RESTful的后端接口实现&#10;feat: 完善 Book 接口，支持单本查询、添加与删除操作&#10;&#10;- 修改 BookApi 类视图，支持通过 /books/&lt;book_id&gt; 查询单本书籍详情&#10;- 新增 POST 方法，实现添加书籍功能，数据来源为 JSON 请求体&#10;- 新增 DELETE 方法，实现通过 book_id 删除指定书籍&#10;- 更新路由配置，支持多个 HTTP 方法（GET, POST, DELETE）绑定&#10;- 增强后端接口的 RESTful 设计，支持更多交互功能">
+      <option name="closed" value="true" />
+      <created>1745372730251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745372730251</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加了dbcreate部分，flask部分，sqlite部分，viewdb部分和sqlite3 import部分(pycharm community版本 没有sqlite reader)&#10;数据库部分已经创建完成，接下来写接口的部分." />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了dbcreate部分，flask部分，sqlite部分，viewdb部分和sqlite3 import部分(pycharm community版本 没有sqlite reader)&#10;数据库部分已经创建完成，接下来写接口的部分." />
+    <MESSAGE value="更新了基于RESTful的后端接口实现&#10;feat: 完善 Book 接口，支持单本查询、添加与删除操作&#10;&#10;- 修改 BookApi 类视图，支持通过 /books/&lt;book_id&gt; 查询单本书籍详情&#10;- 新增 POST 方法，实现添加书籍功能，数据来源为 JSON 请求体&#10;- 新增 DELETE 方法，实现通过 book_id 删除指定书籍&#10;- 更新路由配置，支持多个 HTTP 方法（GET, POST, DELETE）绑定&#10;- 增强后端接口的 RESTful 设计，支持更多交互功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了基于RESTful的后端接口实现&#10;feat: 完善 Book 接口，支持单本查询、添加与删除操作&#10;&#10;- 修改 BookApi 类视图，支持通过 /books/&lt;book_id&gt; 查询单本书籍详情&#10;- 新增 POST 方法，实现添加书籍功能，数据来源为 JSON 请求体&#10;- 新增 DELETE 方法，实现通过 book_id 删除指定书籍&#10;- 更新路由配置，支持多个 HTTP 方法（GET, POST, DELETE）绑定&#10;- 增强后端接口的 RESTful 设计，支持更多交互功能" />
   </component>
 </project>
